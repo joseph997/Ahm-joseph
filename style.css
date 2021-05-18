@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.topbar {
+  display: grid;
+  grid-template-rows: 95px 70px;
+  background-color: white;
+}
+.contact-area {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  align-items: center;
+  padding: 0 5%;
+}
+.contact-info {
+  display: grid;
+  grid-template-columns: 1.2fr 2.3fr;
+}
+.con-wrap {
+  display: flex;
+}
+.con-wrap i,
+span {
+  font-size: 22px;
+  color: burlywood;
+}
+.con-wrap a {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+}
+.menu-area {
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.menu-area a {
+  text-transform: uppercase;
+  padding: 20px;
+  color: black;
+  text-decoration-line: none;
+  font-weight: 400;
+}
+.menu-area i {
+  color: #777777;
+  margin: 8px;
+}
+.logo {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  color: #222;
+}
+.banner {
+  background-image: linear-gradient(
+      rgba(55, 95, 50, 0.8),
+      rgba(55, 95, 50, 0.8),
+      rgba(55, 95, 50, 0.8)
+    ),
+    url(images/hot1.jpg);
+  height: 600px;
+  background-position: center;
+  object-fit: cover;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: white;
+}
+
+.banner h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+  font-family: muli;
+}
+.banner h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: muli;
+  font-size: 18px;
+}
+.content-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  padding: 120px 5%;
+}
+.col {
+  display: flex;
+  object-fit: cover;
+  align-items: center;
+}
+.gd {
+  align-items: center;
+  padding-left: 50px;
+}
+.fa-couch {
+  display: block;
+  text-align: center;
+}
+.explore-heading {
+  text-align: center;
+}
+/* .row {
+  padding: 0 1rem;
+}
+.row > * + * {
+  padding-left: 1rem;
+}
+.card {
+  text-align: center;
+  width: 432.4px;
+  height: 568px;
+  flex-direction: column;
+}
+.card img {
+  height: 300px;
+  width: 432px;
+}
+.price {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: left;
+}
+.category-info {
+  text-align: center;
+}
+*/
+.cta {
+  padding: 0.2rem 0.4rem;
+  width: 147px;
+  border: black;
+  outline: none;
+  border-radius: 7px;
+  transition: 0.2s all ease-in;
+  font-weight: 550;
+  margin: 0 0 0.2rem 0.5rem;
+  box-shadow: #2b23232b 0px 0px 5px 7px;
+  /* margin-bottom: 40px; */
+  justify-content: flex-end;
+}
+.cta:hover {
+  color: rgb(255, 0, 38);
+  word-spacing: 0.3rem;
+}
+.roomscard {
+  padding: 30px 14%;
+}
+.card {
+  /* box-shadow: #2b23232b 0px 0px 5px 7px; */
+}
+.banner-p {
+  background-image: linear-gradient(
+      rgba(12, 13, 80, 0.7),
+      rgba(12, 13, 80, 0.7),
+      rgba(12, 13, 80, 0.7)
+    ),
+    url(images/pic.jpg);
+  height: 568px;
+  background-position: center;
+  object-fit: cover;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-p h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.banner-p h4 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* .vid::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(219, 12, 12, 0.3);
+} */
+.goal {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 30px 10px;
+}
+.goal-p {
+  padding: 10px 10px;
+}
+.icon-bg {
+  width: 80px;
+  height: 80px;
+  display: grid;
+  text-align: center;
+  background: transparent;
+  border-radius: 50%;
+  margin-right: 7px;
+  border: 1px solid rgb(220, 224, 228);
+  place-items: center;
+}
+.goal2 {
+  display: flex;
+}
