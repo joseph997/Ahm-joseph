@@ -209,3 +209,31 @@ span {
 .goal2 {
   display: flex;
 }
+.gd h1 {
+  text-transform: capitalize;
+}
+.pat {
+  background-color: cornsilk;
+}
+.pat-p {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px;
+  padding: 30px 30px;
+}
+.pat-ps {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+}
+.fon {
+  display: flex;
+  grid-template-columns: 1fr 1.5fr;
+}
+.eg img {
+  background-color: rgb(231, 231, 238);
+  border-radius: 100% 100% 100% 100%;
+}
+.text {
+  padding: 20px;
+  text-align: center;
+}
