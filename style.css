@@ -345,6 +345,9 @@ footer {
   text-align: center;
   text-transform: capitalize;
 }
+.six {
+  text-transform: capitalize;
+}
 .six:hover {
   color: darksalmon;
 }
