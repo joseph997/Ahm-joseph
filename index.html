@@ -35,9 +35,10 @@
             </div>
         </div>
         
-       <div style="border-top: 1px solid #777;">
+       <div class="" style="border-top: 1px solid #777;">
            
-        <div class="menu-area sticky-top shadow-md">
+        <div class="menu-area sticky-top shadow-md ">
+           
             <nav>
                 <a href="index.html">home</a>
                 <a href="about.html">about</a>
@@ -54,9 +55,45 @@
                 <i class="fas fa-rss"></i>
             </div>
         </div>
+            <div class="sm">
+                <div class="mobile-btn">
+                    <i class="fas fa-bars fa-3x"></i>
+                </div>
+                <div>
+                    <nav class="sm-menu">
+                       <ul>
+                        <li>
+                            <a href="index.html">home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">about</a>
+                        </li>
+                        <li>
+                            <a href="properties.html">properties</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html">gallery</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">blog</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">contact</a>
+                        </li>
+                       </ul>
+                    </nav>
+                    <div>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google-plus"></i>
+                        <i class="fas fa-rss"></i>
+                    </div>
+                </div>
+        </div>
        </div>
     </div>
-    <div class="banner">
+    <div class="banner-pro">
        <div>
         <h3>see what a difference we make to your business</h3>
         <h1>luxury is a personal</h1>
@@ -149,8 +186,8 @@
     </div>
     <div class="content-wrap">
         <div >
-            <div class="col">
-                <div>
+            <div class="col sm-grid">
+                <div class="">
                     <img src="images/room1.jpg" alt="" style="height: 200px;" width="300px">
                 </div>
                 <div style="padding-left: 10px;">
@@ -165,7 +202,7 @@
         <div class="gd">
             <h1>welcome to hameta guest inn.</h1>
             <h1 style="font-style: italic;">enjot your money</h1>
-            <h3 style="font-size: 25px;">welcome to hameta guest inn, your best choice of rest @hameta, we serve our customers the best king and queens treat. hameta guest inn is the most affordable lodge with all the comfort you would look for in a lodge with a guarantee of securuty and 24hour light with the best settins of rooms with fully air conditioning. we also offer services like laundry, cooking, car wash and so many more. hameta guest inn is located in gwagwalada city of abuja the nigeria capital. 
+            <h3 style="font-size: 20px;">welcome to hameta guest inn, your best choice of rest @hameta, we serve our customers the best king and queens treat. hameta guest inn is the most affordable lodge with all the comfort you would look for in a lodge with a guarantee of securuty and 24hour light with the best settins of rooms with fully air conditioning. we also offer services like laundry, cooking, car wash and so many more. hameta guest inn is located in gwagwalada city of abuja the nigeria capital. 
                 thanks.
             </h3> 
             <div class="btn btn-success">learn more</div>
@@ -175,7 +212,7 @@
         <i class="fas fa-couch" style="font-size: 70px; color: darksalmon;"></i>
         <h1 class="explore-heading" style="text-transform: capitalize;">explore our rooms</h1>
         <div class="row roomscard" >
-            <div class="col-4">
+            <div class="col-md-4 col-sm-12">
                 <div class="card shadow-lg">
                    <div class="clip">
                     <img src="images/room1.jpg" alt="first-category">
@@ -191,7 +228,7 @@
                 </div> 
 
             </div>
-            <div class="col-4">
+            <div class="col-md-4 col-sm-12">
                 <div class="card shadow-lg">
                     <div class="clip">
                         <img src="images/room2.jpg" alt="">
@@ -205,7 +242,7 @@
                     
                 </div>
             </div>
-            <div class="col-4 ">
+            <div class="col-md-4 col-sm-12 ">
                 <div class="card shadow-lg">
                     <div class="clip">
                         <img src="images/room2.jpg" alt="">
@@ -452,17 +489,33 @@
                 </form>
             </div>
         </div>
-        <div>
+        <div class="footer-icon">
             <p>
                 Copyright&COPY;2021.build with <i class="fas fa-heart" style="color: red;"></i> by <span>joseph</span>
             </p>
+            <div class="icon-wrap">
+                <span>
+                    <i class="fab fa-facebook"></i>
+                </span>
+                <span>
+                    <i class="fab fa-linkedin"></i>
+                </span>
+                <span>
+                    <i class="fab fa-twitter"></i>
+                </span>
+                <span>
+                    <i class="fab fa-google-plus"></i>
+                </span>
+                <span>
+                    <i class="fas fa-rss"></i>
+                </span>
+            </div>
         </div>
-        <div>
-            <i class="fas fa-facebook" style="color: white;"></i>
-            <i class="fas fa-twitter"></i>
-            <i class="fas fa-instagram"></i>
-            <i class="fas fa-whatsapp"></i>
-        </div>
+        
     </footer>
+    <script>
+        const btn = document.getElementById(".mobile-btn");
+        document.querySelector(".mobile-btn").addEventListener("click", () => document.querySelector(".sm-menu").classList.toggle("show"));
+    </script>
 </body>
 </html>
