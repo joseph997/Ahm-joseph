@@ -83,6 +83,8 @@ span {
   height: 500px;
   background-position: center;
   object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .banner {
   background-image: linear-gradient(
@@ -94,6 +96,8 @@ span {
   height: 500px;
   background-position: center;
   object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .banner-g {
   background-image: linear-gradient(
@@ -105,6 +109,8 @@ span {
   height: 500px;
   background-position: center;
   object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .banner-c {
   background-image: linear-gradient(
@@ -116,6 +122,8 @@ span {
   height: 500px;
   background-position: center;
   object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .banner h1 {
@@ -478,5 +486,9 @@ footer {
   }
   .grid img {
     width: 100%;
+  }
+  .calendar {
+    display: flex;
+    font-size: 10px;
   }
 }
