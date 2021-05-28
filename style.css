@@ -48,6 +48,11 @@ span {
   text-decoration-line: none;
   font-weight: 400;
 }
+.menu-area a:hover {
+  color: white;
+  background-color: darkmagenta;
+  transition: 0.2s all ease-in;
+}
 .menu-area i {
   color: #777777;
   margin: 8px;
@@ -433,6 +438,24 @@ footer {
 .icon-wrap span:hover {
   color: blue;
 }
+.banner-sp {
+  background-image: linear-gradient(
+      rgba(47, 57, 67, 0.8),
+      rgba(47, 57, 67, 0.8),
+      rgba(47, 57, 67, 0.8)
+    ),
+    url(images/wall-3.jpg);
+  height: 568px;
+  background-position: center;
+  object-fit: cover;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 @media only screen and (max-width: 767px) {
   .foot {
@@ -453,6 +476,7 @@ footer {
     grid-template-columns: 2fr;
     display: grid;
     grid-row-gap: 20px;
+    object-fit: cover;
   }
   .goal {
     grid-template-columns: 1fr;
@@ -483,12 +507,18 @@ footer {
     top: 200px;
     display: flex;
     left: 0px;
-    background: ghostwhite;
+    background: linear-gradient(
+      rgba(22, 44, 55, 0.8),
+      rgba(55, 44, 22, 0.8),
+      rgba(44, 55, 22, 0.8)
+    );
     width: 60vw;
-    height: 30vh;
+    height: 45vh;
     padding: 10px;
     transform: translateX(-500px);
     transition: 0.5s ease-in-out;
+    text-transform: capitalize;
+    text-align: center;
   }
   .menu-area {
     display: none;
@@ -499,7 +529,10 @@ footer {
   }
   .sm-menu a {
     font-size: 160% !important;
+    color: white;
+    text-decoration: none;
   }
+
   .sm-menu.show {
     transform: translateX(-1px);
     transition: 0.6s ease-in-out;
@@ -517,5 +550,8 @@ footer {
   .calendar {
     display: flex;
     font-size: 10px;
+  }
+  .banner-joe h1 {
+    font-size: 40px;
   }
 }
